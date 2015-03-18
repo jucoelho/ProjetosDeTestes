@@ -33,10 +33,8 @@ class Usuario_model extends CI_Model{
   public function updateNome( $data)
   {
 
-                  $dados = array('nome' => 'jujuzun doido');
-                  $this->db->where('id', 4);
-                  $this->db->update('usuario',$dados);
-    /*
+                 
+
                 
                 if( strcmp($data['campo'], "nome") == 0 ){
 
@@ -57,7 +55,7 @@ class Usuario_model extends CI_Model{
                   $this->db->update('tarefa',$dados);
                   return true;
                 }
-*/                
+     
   }
 
    public function validateUser($dados){

@@ -8,12 +8,13 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url(); ?>bootstrap/js/bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>bootstrap/js/novojs.js"></script>
+    <script src="<?php echo base_url(); ?>bootstrap/js/jquey.js"></script>
 <!-- Bootstrap CSS -->
 <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
-<link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+<link href="<?php echo base_url(); ?>bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
 <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap.css" rel="stylesheet" />
-<link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap-min.css" rel="stylesheet" />
-<link href="<?php echo base_url(); ?>/bootstrap/css/dashboard.css" rel="stylesheet" />
+<link href="<?php echo base_url(); ?>bootstrap/css/bootstrap-min.css" rel="stylesheet" />
+<link href="<?php echo base_url(); ?>bootstrap/css/dashboard.css" rel="stylesheet" />
 <link href="<?php echo base_url(); ?>bootstrap/estilo.css" rel="stylesheet" />
 
 <!-- estilo css página -->
@@ -70,6 +71,9 @@
       
      ?>
      </table>
+     <div id="reposta">
+       
+     </div>
 <footer id="rodape">
                 <p>
                     Copyright &copy; 2013 - by Juarez G. Coelho

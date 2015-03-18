@@ -43,22 +43,22 @@ class Usuario extends CI_Controller{
 	}
    public function validarUsuario(){
      
-      echo "<script>alert('Entrou');</script>";
-    /* $dados['nome'] = $this->input->post('usuarioCadastro');
+       $dados['nome'] = $this->input->post('usuarioCadastro');
      $this->load->model('usuario_model');
      $usuario = $this->usuario_model->validateUser($dados);
-     echo ($usuario) ? '1' : '0';*/
+     echo ($usuario) ? '1' : '0';
      
   }
   public function updateNome()
   {
-      Location( 'http://google.com');
-      /*
-      $dados = array('id' =>  $this->input->post('id'),'campo' => $this->input->post('campo'),
+    
+        
+       $dados = array('id' =>  $this->input->post('id'),'campo' => $this->input->post('campo'),
       'valor' => $this->input->post('valor') );
       $this->load->model('usuario_model');
-      $this->usuario_model->updateNome($dados);
-     */
+      $result =  $this->usuario_model->updateNome($dados);
+        if($result)
+          echo 'correto';
     
   }
   private function chamhar_page(){

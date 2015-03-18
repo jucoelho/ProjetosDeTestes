@@ -5,6 +5,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url(); ?>bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>bootstrap/js/novojs.js"></script>
+    <script src="<?php echo base_url(); ?>bootstrap/js/jquey.js"></script>
     <!-- Bootstrap CSS -->
     <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
     <link href="<?php echo base_url(); ?>/bootstrap/css/dashboard.css" rel="stylesheet" />
     <link href="<?php echo base_url(); ?>/bootstrap/estilo.css" rel="stylesheet" />
 
-    <title>Login</title> 
+    <title>Login </title> 
 
  </head>
 <body onload="fundo();">
