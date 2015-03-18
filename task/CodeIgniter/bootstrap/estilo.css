@@ -1,0 +1,101 @@
+body {
+  font-family: Arial,sans-serif;
+    background-color: #dddddd;
+  color: rgba(0,0,0,1);
+  height: 600px;
+ 
+ }
+table#tabela{
+  margin-top: 20px;
+  margin-left: 20px;
+
+    top: 20px;
+    position: relative;
+    width: 770px;
+
+}
+table#tabela td{
+    text-align: right;
+}
+table#tabela th{
+    text-align: right;
+}
+
+ div#interface {
+   width: 1000px; /* largura*/
+   background-color: white;
+   margin: -20px auto 0px auto; /* positionamento */
+   box-shadow: 0px 0px 10px rgba(0,0,0, .5);  /* efeito na caixa */
+   padding: 10px ; 
+   height: 690px;
+ }
+
+nav#menu ul{
+   list-style: none;
+ text-transform: uppercase;
+ position:relative;
+ 
+}
+ footer#rodape{
+  clear: both;
+  position: static;
+  padding-top: 450px;
+ 
+  
+}
+
+footer#rodape p{
+text-align: center;
+}
+.tabelaEditavel .celulaEmEdicao { 
+
+  padding: 0;
+   } 
+   .tabelaEditavel .celulaEmEdicao input[type=text]{
+    width:100%;
+     border:0;
+      background-color:rgb(255,253,210);
+       }
+div#corpo-full{
+   width: 500px; /* largura*/
+   background-color: #ffffff;
+    margin-top: 160px;
+    margin-left: 400px;
+   box-shadow: 0px 0px 10px rgba(0,0,0, .5);  /* efeito na caixa */
+   padding: 20px ; 
+   
+    }
+div#formlogin{
+       margin-left: 130px ;
+       margin-top: 30px;
+        
+    }    
+    div#formlogin label#mensagem{
+        position: relative;
+        left: 20px;
+        color: #1874CD;
+    }
+   body{
+    background-color: #FFFAF0;
+   }
+   
+   .topologin{
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 100%;
+
+   }
+   .topologin img{
+    width: 100%;
+    position: absolute;
+   }
+   #planoDeFundo{
+    margin-top: -20px;
+    background-image: url("papo_superheroi.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: center center;
+    height: 643px;
+
+   }
+   
