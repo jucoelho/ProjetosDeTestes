@@ -7,12 +7,12 @@
     <script src="<?php echo base_url(); ?>bootstrap/js/novojs.js"></script>
     <script src="<?php echo base_url(); ?>bootstrap/js/jquey.js"></script>
     <!-- Bootstrap CSS -->
-    <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/bootstrap/css/dashboard.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/bootstrap/estilo.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/css/dashboard.css" rel="stylesheet" />
+    <link href="<?php echo base_url(); ?>bootstrap/estilo.css" rel="stylesheet" />
 
     <title>Login </title> 
 
@@ -85,7 +85,7 @@
                         <label for="usuario">
                             Usuário
                         </label>
-                        <input type="text"  class="usuarioCadastro" name="usuario-cadastro" id="usuario-cadastro" oninput="mudaBorda('usuario-cadastro');"
+                        <input type="text"  class="usuarioCadastro" name="usuario-cadastro" id="usuario-cadastro" oninput="mudaBorda('usuario-cadastro');" 
                         size="20" maxlength="30" placeholder="Usuário">
                         <label for="senha">
                             Senha

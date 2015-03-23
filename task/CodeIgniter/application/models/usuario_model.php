@@ -57,7 +57,16 @@ class Usuario_model extends CI_Model{
                 }
      
   }
-
+ public function validaNovoUsuario($usuario){
+       
+        $this->db->query('select * from usuario whrere usuario=' + $usuario);
+        // Let's check if there are any results
+        if($query->num_rows == 1){
+          return true;
+        }else{
+          return false;
+        }
+ }
    public function validateUser($dados){
       
         $this->db->where('usuario', $dados['nome']);

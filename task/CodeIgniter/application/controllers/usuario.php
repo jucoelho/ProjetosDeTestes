@@ -57,9 +57,18 @@ class Usuario extends CI_Controller{
       'valor' => $this->input->post('valor') );
       $this->load->model('usuario_model');
       $result =  $this->usuario_model->updateNome($dados);
-        if($result)
-          echo 'correto';
+        echo 'ok';
     
+  }
+  public function validaNovoUsuario(){
+
+     $usuario = $this->input->post('novousuario');
+     $this->load->model('usuario_model');
+      $resultado= $this->usuario_model->validaNovoUsuario($usuario);
+      if($resultado){
+       return  1 ;
+      }
+
   }
   private function chamhar_page(){
         $this->load->model('tarefa_model');
